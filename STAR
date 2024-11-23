@@ -1,0 +1,8 @@
+CREATE TABLE `userinterest` (
+  `User_Interest_id` INT NOT NULL AUTO_INCREMENT,
+  `user_id` VARCHAR(45) NOT NULL,
+  `interest_name` VARCHAR(45) NOT NULL,
+  `field_of_interest` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`User_Interest_id`)
+);
+
